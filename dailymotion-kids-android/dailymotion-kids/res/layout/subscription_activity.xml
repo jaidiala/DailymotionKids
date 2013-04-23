@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:padding="@dimen/padding_medium"
+    android:background="@color/background_dailymotion" >
+
+    <TextView
+        android:id="@+id/subsc_introduction_tv"
+        style="@style/dailymotion_TextStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:text="@string/subsc_introduction" />
+  
+    <Button
+        android:id="@+id/subsc_purchase_bt_amazon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subsc_introduction_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:text="@string/subsc_purchase_bt_amazon" />
+    
+    <TextView
+        android:id="@+id/subsc_purchase_status_tv"
+        style="@style/dailymotion_TextStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subsc_purchase_bt_amazon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:text="@string/subsc_purchase_status_tv"
+        android:visibility="gone" />
+
+        
+
+
+</RelativeLayout>

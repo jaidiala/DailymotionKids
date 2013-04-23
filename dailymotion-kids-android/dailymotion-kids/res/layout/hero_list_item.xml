@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/selectable_background_dailymotion"
+    android:padding="@dimen/padding_medium" >
+
+    <ImageView
+        android:id="@+id/hero_list_item_iv"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/hero_iv_desc"
+        android:layout_marginRight="@dimen/margin_medium" />
+
+    <TextView
+        android:id="@+id/hero_list_item_tv"
+        style="@style/dailymotion_TextStyleMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/hero_list_item_iv" />
+
+</RelativeLayout>

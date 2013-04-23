@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selectable_background_dailymotion" 
+    android:padding="@dimen/padding_medium" >
+	
+	<TextView 
+	    android:id="@+id/about_list_item_title_tv"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    style="@style/dailymotion_TitleTextStyleLarge" />    
+	
+	<TextView 
+	    android:id="@+id/about_list_item_content_tv"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:layout_below="@id/about_list_item_title_tv"
+	    style="@style/dailymotion_TextStyleSmall" />
+    
+</RelativeLayout>

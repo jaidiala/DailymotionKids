@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dailymotion SDK</string>
+    
+    <!-- Authentication Dialog -->
+    <string name="auth_dialog_title">Identification Dailymotion</string>
+    <string name="auth_dialog_message">Chargement du formulaire d\'authentification. Veuillez patienter&#8230;</string>
+</resources>

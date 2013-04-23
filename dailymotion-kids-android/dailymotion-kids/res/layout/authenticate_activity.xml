@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:padding="@dimen/padding_medium"
+    android:background="@color/background_dailymotion" >
+
+    <TextView
+        android:id="@+id/auth_title_tv"
+        style="@style/dailymotion_TitleTextStyleLarge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:text="@string/auth_title_page"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/auth_introduction_tv"
+        style="@style/dailymotion_TextStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/auth_title_tv"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:text="@string/auth_introduction" />
+
+    <LinearLayout
+        android:id="@+id/auth_choices_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/auth_introduction_tv"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium" >
+
+        <Button
+            android:id="@+id/auth_dailymotion_choice_b"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/auth_dailymotion_choice" />
+
+        <Button
+            android:id="@+id/auth_subscription_choice_b"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/auth_subscription_choice" />
+        
+        <Button 
+            android:id="@+id/auth_continue_choice_b"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/auth_continue_choice"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/auth_status_tv"
+        style="@style/dailymotion_TextStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/auth_choices_ll"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

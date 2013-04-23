@@ -1,0 +1,116 @@
+<resources>
+
+    <string name="app_name">Kids+</string>
+
+    <!-- Home Screen -->
+    <string name="homescreen_welcome">Bienvenue dans Dailymotion Kids</string>
+    <string name="homescreen_server_error">Une erreur s\'est produite lors de la communication avec les serveurs de Dailymotion.</string>
+    <string name="homescreen_unknown_error">Une erreur inconnue s\'est produite pendant la mise à jour des données.</string>
+    <string name="homescreen_auth_error">Erreur d\'authentification, veuillez vérifier que vous êtes connecté.</string>
+    <string name="homescreen_update_success">Mise à jour des données réussie.</string>
+    <string name="homescreen_io_error">Impossible de communiquer avec le serveur.Veuillez vérifier que vous êtes connecté à Internet.</string>
+    <string name="homescreen_no_longer_member">Vous n\'êtes plus abonné à Dailymotion Kids+.</string>
+    <string name="homescreen_new_member">Merci d\'avoir souscrit à Dailymotion Kids+, vous pouvez désormais profiter de vos héros favoris.</string>
+    <string name="homescreen_token_error">Une erreur est survenue. Veuillez vous reconnecter à votre compte Dailymotion.</string>
+    <string name="homescreen_access_denied">Un problème est survenu avec votre compte Dailymotion. Veuillez vous reconnecter.</string>
+   
+    <!-- Home Screen Menu -->
+    <string name="homescreen_auth_menu_item">S\'abonner</string>
+    <string name="homescreen_subscribed_menu_item">Abonné</string>
+    <string name="homescreen_search_menu_item">Recherche</string>
+    <string name="homescreen_myaccount_menu_item">Mon compte</string>
+    <string name="homescreen_info_menu_item">Aide</string>
+    <string name="homescreen_refresh_menu_item">Rafraîchir</string>
+
+    <!-- Videos List -->
+    <string name="videos_list_all_episodes">Tous</string>
+    <string name="episode_image_hint">Image épisode</string>
+
+    <!-- Content Description -->
+    <string name="hero_iv_desc">Héros</string>
+    <string name="hero_new_desc">Nouveau</string>
+
+    <!-- Video Description -->
+    <string name="video_info_no_title">Episode Inconnu</string>
+    <string name="video_info_no_desc">Pas de description.</string>
+
+    <!-- Video Player -->
+    <string name="video_initialtime">00:00</string>
+    <string name="videoplayer_buffering">Chargement&#8230;</string>
+    <string name="videoplayer_play_pause_hint">Jouer/Pause</string>
+    <string name="videoplayer_nextepisode">Episode suivant</string>
+    <string name="videoplayer_nextepisode_in">Episode suivant dans %1$d secondes</string>
+    <string name="videoplayer_fullscreen_hint">Plein écran</string>
+    <string name="videoplayer_unknown_error">La vidéo ne peut être lue.</string>
+    <string name="videoplayer_server_died">Les serveurs de Dailymotion ne répondent plus. Veuillez vérifier votre connectivité réseau.</string>
+    <string name="videoplayer_next_video">Le prochain épisode de %1$s va être joué dans %2$ds&#8230;</string>
+    <string name="videoplayer_no_next_video">Merci d\'avoir regardé %1$s.</string>
+    <string name="videoplayer_no_stream_error">La vidéo ne peut être trouvée.</string>
+    <string name="videoplayer_tab_info">infos</string>
+    <string name="videoplayer_tab_episodes">épisodes</string>
+    <string name="videoplayer_tab_suggestion">+ de héros</string>
+    <string name="videoplayer_play_again">Rejouer</string>
+
+    <!-- Authentication Activity -->
+    <string name="auth_title">Authentification</string>
+    <string name="auth_invalid_username_password">Compte ou mot de passe invalide.</string>
+    <string name="auth_communication_failed">Communication avec les serveurs de Dailymotion servers impossible.</string>
+    <string name="auth_authentication_failed">Mauvaise authentification, veuillez ré-essayer.</string>
+    <string name="auth_introduction">Pour voir tous les épisodes de Kids+ en intégralité, abonnez-vous. Ou connectez-vous à votre compte Dailymotion si vous êtes déjà abonné.</string>
+    <string name="auth_subscription_choice">S\'abonner</string>
+    <string name="auth_dailymotion_choice">Utiliser mon compte Dailymotion</string>
+    <string name="auth_dailymotion_other_account_choice">Utiliser un autre compte Dailymotion</string>
+    <string name="auth_continue_choice">Démarrer</string>
+    <string name="auth_title_page"></string>
+    <string name="auth_title_welcome">Bienvenue sur Dailymotion Kids+</string>
+    <string name="auth_title_error">Oups, une erreur est survenue</string>
+    <string name="auth_title_subscribe">Souscrivez à Dailymotion Kids+</string>
+    <string name="auth_desc_login_thanks">Merci, votre abonnement est maintenant actif. Toucher le bouton ci-dessous pour commencer à profiter de tous les dessins animés de Kids+.</string>
+    <string name="auth_desc_premium">Votre abonnement à Kids+ est actif.</string>
+    <string name="auth_desc_not_premium">Abonnez-vous à Kids+. Vous n’êtes pas abonné à Kids+, touchez le bouton ci-dessous pour profiter des tous les dessins animés en intégralité.</string>
+    <string name="auth_desc_no_account">L\'authentification semble avoir échouée pour votre compte. Vous pouvez réessayer ou vous abonner directement à Dailymotion Kids+ via le bouton ci-dessous.</string>
+
+    <!-- Subscription Activity -->
+    <string name="subsc_title">Abonnement</string>
+    <string name="subsc_introduction">Pour voir tous les épisodes de Kids+ en intégralité, abonnez-vous.</string>
+    <string name="subsc_purchase_bt">S\'abonner</string>
+    <string name="subsc_purchase_status_tv">Abonnement souscrit.</string>
+    <string name="subsc_restore_bt">Restaurer votre abonnement sur cet appareil</string>
+    <string name="subsc_restore_status_tv">Abonnement restauré.</string>
+
+    <!-- About Activity -->
+    <string name="about_title">A propos</string>
+    <string name="about_about_title">A propos de cette application</string>
+    <string name="about_about_content">Cliquer ici pour en savoir plus sur cette application.</string>
+    <string name="about_about_url">http://www.dailymotion.com/fr/kidsplusapps/about</string>
+    <string name="about_faq_title">FAQ</string>
+    <string name="about_faq_content">Cliquer ici pour consulter l\'aide.</string>
+    <string name="about_faq_url">http://www.dailymotion.com/fr/kidsplusapps/faq</string>
+    <string name="about_terms_title">CGU</string>
+    <string name="about_terms_content">Cliquer ici pour consulter les Conditions Générales d\'utilisation.</string>
+    <string name="about_terms_url">http://www.dailymotion.com/fr/kidsplusapps/cgu_android</string>
+    <string name="about_contact_title">Contact</string>
+    <string name="about_contact_content">Cliquer ici pour envoyer un mail à feedback@dailymotion.com.</string>
+    <string name="about_contact_email">feedback@dailymotion.com</string>
+    <string name="about_contact_subject">Dailymotion Kids+ App Feedback</string>
+    <string name="about_contact_message">Votre message ici :</string>
+    <string name="about_version_title">Version</string>
+    <string name="about_webview_error">Impossible de trouver un navigateur pour afficher cet écran.</string>
+
+    <!-- Episodes Suggestion -->
+    <string name="suggestion_no_episode_found">Aucun épisode n\'a pu être trouvé pour ce héro.</string>
+
+    <!-- Subscription Dialog -->
+    <string name="subscription_dialog_title">Abonnement à Kids+</string>
+    <string name="subscription_dialog_message">Abonnez-vous à Kids+ et regardez sans limite vos dessins animés préférés !</string>
+    <string name="subscription_dialog_subscribe">S\'abonner ou s\'authentifier</string>
+    <string name="subscription_dialog_cancel">Annuler</string>
+    <string name="subsc_purchase_bt_amazon">S\'abonner via Amazon</string>
+    <!-- amazon add on -->
+    <string name="subsc_purchase_bt_amazon">S\'abonner via Amazon</string>
+    <string name="consumable_sku">com.orange.labs.dailymotionkids.subsc</string>
+    <string name="child_subscription_sku_monthly">com.orange.labs.dailymotionkids.subscription.1mo</string>
+    <string name="sub_message">s\'abonner a DailymotionKid+</string>
+    <string name="sub_purchased">vous êtes déjà inscrit a DailymotionKid+</string>
+
+</resources>

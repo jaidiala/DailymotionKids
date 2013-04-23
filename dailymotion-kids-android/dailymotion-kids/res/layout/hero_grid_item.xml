@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.orange.labs.dailymotion.kids.activity.views.UnpressedRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hero_item_parent_rl"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_medium" >
+
+    <RelativeLayout
+        android:id="@+id/hero_item_rl"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <ImageView
+            android:id="@+id/hero_item_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/hero_iv_desc"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/hero_new_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/hero_iv_desc"
+            android:scaleType="fitCenter" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/hero_item_hide_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/hide_button_selector"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/hero_item_fav_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/favorite_button_selector"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/hero_name_tv"
+        style="@style/dailymotion_TextStyleMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/hero_item_rl"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:lines="3"
+       	android:textColor="@color/blue_dailymotion"
+        android:textStyle="bold" />
+
+</com.orange.labs.dailymotion.kids.activity.views.UnpressedRelativeLayout>

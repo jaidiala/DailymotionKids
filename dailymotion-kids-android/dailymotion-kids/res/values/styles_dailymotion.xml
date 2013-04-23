@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.dailymotion" parent="@style/Theme.Sherlock.Light.DarkActionBar">
+        <item name="actionBarItemBackground">@drawable/selectable_background_dailymotion</item>
+        <item name="popupMenuStyle">@style/dailymotion_PopupMenu</item>
+        <item name="dropDownListViewStyle">@style/dailymotion_DropDownListView</item>
+        <item name="actionBarTabStyle">@style/dailymotion_ActionBarTabStyle</item>
+        <item name="actionDropDownStyle">@style/dailymotion_DropDownNav</item>
+        <item name="actionBarStyle">@style/dailymotion_solid_ActionBar</item>
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_dailymotion</item>
+        <item name="android:popupMenuStyle">@style/dailymotion_PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/dailymotion_DropDownListView</item>
+        <item name="android:actionBarTabStyle">@style/dailymotion_ActionBarTabStyle</item>
+        <item name="android:actionDropDownStyle">@style/dailymotion_DropDownNav</item>
+        <item name="android:actionBarStyle">@style/dailymotion_solid_ActionBar</item>
+        <item name="android:panelBackground">@drawable/menu_hardkey_panel_dailymotion</item>
+
+        <!-- Light.DarkActionBar specific -->
+        <item name="actionBarWidgetTheme">@style/Theme.dailymotion.widget</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.dailymotion.widget</item>
+        <item name="spinnerDropDownItemStyle">@style/dailymotion_DropDownItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/dailymotion_DropDownItem</item>
+        <item name="spinnerItemStyle">@style/dailymotion_SpinnerItem</item>
+        <item name="android:spinnerItemStyle">@style/dailymotion_SpinnerItem</item>
+    </style>
+    
+    <style name="Theme.dailymotion.noText" parent="Theme.dailymotion">
+        <item name="actionBarStyle">@style/dailymotion_solid_ActionBar.noText</item>
+        <item name="android:actionBarStyle">@style/dailymotion_solid_ActionBar.noText</item>
+    </style>
+
+  
+    <style name="dailymotion_solid_ActionBar" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/ab_background_dailymotion_kids</item>
+        <item name="backgroundStacked">@drawable/ab_solid_dailymotion_dark</item>
+        <item name="backgroundSplit">@drawable/ab_solid_dailymotion_dark</item>
+        <item name="progressBarStyle">@style/dailymotion_ProgressBar</item>
+        <item name="android:background">@drawable/ab_background_dailymotion_kids</item>
+        <item name="android:backgroundStacked">@drawable/ab_solid_dailymotion_dark</item>
+        <item name="android:backgroundSplit">@drawable/ab_solid_dailymotion_dark</item>
+        <item name="android:progressBarStyle">@style/dailymotion_ProgressBar</item>
+    </style>
+    
+      <style name="dailymotion_solid_ActionBar.noText" parent="dailymotion_solid_ActionBar">
+        <item name="titleTextStyle">@style/NoTitleText</item>
+        <item name="android:titleTextStyle">@style/NoTitleText</item>
+        <item name="subtitleTextStyle">@style/NoTitleText</item>
+        <item name="android:subtitleTextStyle">@style/NoTitleText</item>
+    </style>
+    
+    <style name="dailymotion_transparent_ActionBar" parent="@style/Widget.Sherlock.ActionBar">
+        <item name="background">@drawable/ab_transparent_dailymotion</item>
+        <item name="progressBarStyle">@style/dailymotion_ProgressBar</item>
+        <item name="android:background">@drawable/ab_transparent_dailymotion</item>
+        <item name="android:progressBarStyle">@style/dailymotion_ProgressBar</item>
+    </style>
+
+    <style name="dailymotion_PopupMenu" parent="@style/Widget.Sherlock.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_dailymotion</item>
+    </style>
+
+    <style name="dailymotion_DropDownListView" parent="@style/Widget.Sherlock.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_dailymotion</item>
+    </style>
+
+    <style name="dailymotion_ActionBarTabStyle" parent="@style/Widget.Sherlock.ActionBar.TabView">
+        <item name="background">@drawable/tab_indicator_ab_dailymotion</item>
+        <item name="android:background">@drawable/tab_indicator_ab_dailymotion</item>
+    </style>
+
+    <style name="dailymotion_DropDownNav" parent="@style/Widget.Sherlock.Spinner.DropDown.ActionBar">
+        <item name="background">@drawable/spinner_background_ab_dailymotion</item>
+        <item name="android:background">@drawable/spinner_background_ab_dailymotion</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_dailymotion</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_dailymotion</item>
+    </style>
+
+    <style name="dailymotion_ProgressBar" parent="@style/Widget.Sherlock.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_dailymotion</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.dailymotion.widget" parent="@style/Theme.Sherlock">
+        <item name="popupMenuStyle">@style/dailymotion_PopupMenu</item>
+        <item name="dropDownListViewStyle">@style/dailymotion_DropDownListView</item>
+        <item name="android:popupMenuStyle">@style/dailymotion_PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/dailymotion_DropDownListView</item>
+    </style>
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="dailymotion_DropDownItem" parent="@style/Widget.Sherlock.Light.DropDownItem.Spinner">
+        <item name="android:textAppearance">?android:attr/textAppearanceInverse</item>
+    </style>
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="dailymotion_SpinnerItem" parent="@style/Widget.Sherlock.TextView.SpinnerItem">
+        <item name="android:textAppearance">?android:attr/textAppearanceInverse</item>
+    </style>
+
+    <!-- theses styles are for the dailymotion text -->
+    <style name="dailymotion_TextStyleSmall" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="dailymotion_TextStyleMedium" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="dailymotion_TextStyleLarge" parent="@android:style/TextAppearance.Large">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="dailymotion_TitleTextStyleLarge" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/blue_dailymotion</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="dailymotion_TabTextStyle" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="NoTitleText">
+        <item name="android:textSize">0sp</item>
+        <item name="android:textColor">#00000000</item>
+    </style>
+</resources>
