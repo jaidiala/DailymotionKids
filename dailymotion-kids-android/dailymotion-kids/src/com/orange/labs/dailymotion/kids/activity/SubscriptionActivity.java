@@ -6,25 +6,17 @@ import java.util.Map;
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningServiceInfo;
 import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
-import android.opengl.Visibility;
 import android.os.Bundle;
-import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.MenuItem;
 import com.amazon.inapp.purchasing.PurchasingManager;
 import com.dailymotion.kids.R;
-import com.orange.labs.dailymotion.kids.billing.BillingHelper;
-import com.orange.labs.dailymotion.kids.billing.BillingSecurity;
-import com.orange.labs.dailymotion.kids.billing.BillingService;
 import com.orange.labs.dailymotion.kids.billing.amazon.ButtonClickerObserver;
 import com.orange.labs.dailymotion.kids.billing.amazon.DialogCommandWrapper;
 import com.orange.labs.dailymotion.kids.config.ConfigurationManager;
@@ -112,8 +104,7 @@ public class SubscriptionActivity extends SherlockActivity {
 	}
 
 	@Override
-	protected void onStart() {
-		startService(new Intent(this, BillingService.class));
+	protected void onStart() {	
 		super.onStart();
 		// ici on enregistre l'observateur amazon sur l'activity
 		ButtonClickerObserver buttonClickerObserver = new ButtonClickerObserver(
@@ -158,10 +149,7 @@ public class SubscriptionActivity extends SherlockActivity {
 		ActivityManager manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
 		for (RunningServiceInfo service : manager
 				.getRunningServices(Integer.MAX_VALUE)) {
-			if (BillingService.class.getName().equals(
-					service.service.getClassName())) {
-				return true;
-			}
+	
 		}
 		return false;
 	}
@@ -174,9 +162,7 @@ public class SubscriptionActivity extends SherlockActivity {
 
 	@Override
 	protected void onStop() {
-		if (isBillingServiceRunning()) {
-			BillingHelper.stopService();
-		}
+	
 		super.onStop();
 	}
 

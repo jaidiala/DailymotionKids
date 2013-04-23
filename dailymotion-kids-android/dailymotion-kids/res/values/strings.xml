@@ -14,8 +14,6 @@
     <string name="homescreen_new_member">Thank you, your subscription to Kids is now activated. Touch the button below to enjoy all the Kids+ cartoons entirely.</string>
     <string name="homescreen_access_denied">There was a problem with your Dailymotion account. Please sign in again.</string>
     <string name="homescreen_token_error">There was a problem with your Dailymotion account. Please sign in again.</string>
-    <string name="homescreen_google_play_subsc_ok">Your subscription with Google Play to Kids has been verified. Enjoy all the Kids+ cartoons entirely.</string>
-    <string name="homescreen_google_play_no_subs">There was a problem with your Google Play subscription to Kids+. Please verify your subscription in Google Play.</string>
 
     <!-- Home Screen Menu -->
     <string name="homescreen_auth_menu_item">Subscribe</string>
